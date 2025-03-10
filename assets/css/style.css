@@ -19,8 +19,8 @@ body {
     border-radius: 10px;
     height: 260px;
     padding: 20px;
-    transition: 0.2s;
     width: 400px;
+    transition: .1s;
 }
 
 .container.active {
@@ -81,10 +81,10 @@ body {
     margin: 20px 15px;
     opacity: 0;
     padding: 30px 0;
-    transition: .5s;
 }
 
 /* Classe "active" inserida e removida com JS */
 .container.active #qr-code {
+    transition: .5s;
     opacity: 1;
 }
